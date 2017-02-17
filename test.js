@@ -59,13 +59,12 @@ var currTotal = document.getElementById("tot").innerHTML;
         currTotal = start;
     }
 
-
     var newTotal = 2 + +currTotal;
 
     document.getElementById("tot").innerHTML = newTotal;
 }
 
 function clear() {
-    console.log("clear function");
-    document.getElementById("tot").innerHTML = newTotal;
+    console.log("clear");
+    document.getElementById("tot").reset();
 }
