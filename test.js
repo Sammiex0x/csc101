@@ -64,7 +64,7 @@ var currTotal = document.getElementById("tot").innerHTML;
     document.getElementById("tot").innerHTML = newTotal;
 }
 
-function clear() {
-    console.log("clear");
-    document.getElementById("tot").reset();
+function CL() {
+    console.log("CL");
+     document.getElementById("tot").innerHTML = "0";
 }
