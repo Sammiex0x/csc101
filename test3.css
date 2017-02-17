@@ -4,15 +4,12 @@
 .test4 {
 color: darkblue
 }
-function Mushrooms () {
-
-//assuming that the total is in an HTML element with the id "Total"
-current = document.getElementById("Total:").innerHTML;
-
-//assuming bellpepper is $2
-future = current + 2;
-
-//put it back into the HTML
-document.getElementById("Total:").innerHTML = future;
-
+img {
+    width: 200px;
+}
+pizza {
+     width: 200px;
+}
+body {
+    background-color: lightblue;
 }
