@@ -1,15 +1,22 @@
 .test3 {
-    color: darkviolet
+    color: darkred
 }
 .test4 {
-color: darkblue
+color: midnightblue
+}
+.test5 {
+    color: dark saddlebrown;
+    font-style: italic
+
 }
 img {
-    width: 200px;
+    width: 150px;
 }
 pizza {
      width: 200px;
 }
 body {
     background-color: lightblue;
+    color: purple
+
 }
