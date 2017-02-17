@@ -66,6 +66,6 @@ var currTotal = document.getElementById("tot").innerHTML;
 }
 
 function clear() {
-      document.getElementById("tot").innerHTML = "0";
-
+    console.log("clear function");
+    document.getElementById("tot").innerHTML = newTotal;
 }
